@@ -102,5 +102,5 @@ def update_dog(pk: int, dog: Dog) -> Dog:
     return dogs_db[pk]
     
 if __name__ == '__main__':
-    uvicorn.run(app, port=51001)
+    uvicorn.run(app, port=5555)
     
